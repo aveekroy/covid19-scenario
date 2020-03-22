@@ -26,6 +26,20 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+    "client": [
+      {
+        "file": "covid19_cases_details",
+        "target": "~/"
+      }
+    ],
+    "host01": [
+      {
+        "file": "covid19_cases_details",
+        "target": "~/"
+      }
+    ]
+  },
   "environment": {
     "uilayout": "terminal"
   },
