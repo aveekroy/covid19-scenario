@@ -19,7 +19,7 @@ blockquote::after{
 }
 </style>
 
-<blockquote>Please choose your Province/State from the list given below and then click **Save Setting**</blockquote>
+<blockquote>Please choose your **Province/State** from the list given below and then click **Save Setting**</blockquote>
 
 <input type="text" name="state" id="state" required="required" placeholder="Insert the Province/State Name from below">
 <button type="button" onClick="doAction()" class="btn btn-success">Save Setting</button>

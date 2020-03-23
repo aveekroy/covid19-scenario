@@ -1,0 +1,1 @@
+**You can check the stats for COVID-19 using this senario**
