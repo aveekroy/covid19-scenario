@@ -2,7 +2,7 @@
 
 <blockquote>Please click on the below</blockquote>
 
-`bash covid19_cases_details.sh`{{execute T1}}
+`./covid19_cases_details`{{execute T1}}
 
 <blockquote>Enter your County/State/Country Name:(say Arizona for example)</blockquote>
 `Arizona`{{execute T1}}
