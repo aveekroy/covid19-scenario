@@ -1,8 +1,9 @@
 <blockquote>Please wait for sometime while the environment loads on Katacoda...</blockquote>
 
->**NOTE:**
->For *USA*, it is preferable if you know the **county** name. It displays the trend nicely.
->For other countries, like India, Italy, Iran etc. you can just give the **country** name.
+>**INFO:**
+>For *USA*, it is preferable if you know the **county** name. Follow the instructions on the left pane.It displays the trend nicely.For UI experience, you can visit https://coronavirus.jhu.edu/map.html
+>For *INDIA*, you can select the dashboard to view detailed statistics.
+>For other countries, like Italy, Iran etc. you can follow the instructions on the left pane and give the **country** name.
 
 <blockquote>**Step 1:** Click on the below</blockquote>
 
@@ -15,8 +16,6 @@
 
 >In order to check for other states or country, click here -> `clear`{{execute T1}} and repeat **Step 1**
 
-
 <blockquote>REFERENCE:</blockquote>
->https://coronavirus.jhu.edu/map.html
 >https://github.com/CSSEGISandData/COVID-19
 

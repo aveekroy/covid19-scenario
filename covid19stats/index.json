@@ -39,6 +39,6 @@
   },
   "backend": {
     "imageid": "ubuntu1904",
-    "url": "https://www.covid19india.org/"
+    "url": "https://www.covid19india.org/",
   }
 }
