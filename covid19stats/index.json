@@ -23,9 +23,10 @@
     "showdashboard": true,
     "dashboards": [
       {"name": "CoronaVirus Self-Checker", "href": "https://covid19healthbot.cdc.gov/"},
-      {"name": "WHO Dashboard", "href":"https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"},
-      {"name": "JHU Dashboard", "href":"https://coronavirus.jhu.edu/map.html"},
-      {"name": "Detailed INDIA Dashboard", "href":"https://www.covid19india.org/"}
+      {"name": "WHO", "href":"https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"},
+      {"name": "JHU", "href":"https://coronavirus.jhu.edu/map.html"},
+      {"name": "INDIA Stats", "href":"https://www.covid19india.org/"},
+      {"name": "Worldometer Stats", "href":"https://www.worldometers.info/coronavirus/"}
     ]
     
   },
