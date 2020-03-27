@@ -1,9 +1,9 @@
 <blockquote>Please wait for sometime while the environment loads on Katacoda...</blockquote>
 
->**INFO:**
->For *USA*, it is preferable if you know the **county** name. Follow the instructions on the left pane.It displays the trend nicely.For UI experience, you can visit https://coronavirus.jhu.edu/map.html
->For *INDIA*, you can select the dashboard to view detailed statistics.
->For other countries, like Italy, Iran etc. you can follow the instructions on the left pane and give the **country** name.
+<blockquote>**INFO:**</blockquote>
+<blockquote>For *USA*, it is preferable if you know the **county** name. Follow the instructions on the left pane.It displays the trend nicely.For UI experience, you can visit https://coronavirus.jhu.edu/map.html</blockquote>
+<blockquote>For *INDIA*, you can select the dashboard to view detailed statistics.</blockquote>
+<blockquote>For other countries, like Italy, Iran etc. you can follow the instructions on the left pane and give the **country** name.</blockquote>
 
 <blockquote>**Step 1:** Click on the below</blockquote>
 
