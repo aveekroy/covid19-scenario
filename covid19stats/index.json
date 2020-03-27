@@ -33,7 +33,7 @@
     ]
   },
   "environment": {
-    "uilayout": "terminal+iframe"
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu1904"
