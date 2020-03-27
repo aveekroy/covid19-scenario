@@ -1,5 +1,7 @@
 <blockquote>Please wait for sometime while the environment loads on Katacoda...</blockquote>
 
+<blockquote>You Tube [video](https://www.youtube.com/watch?v=JwvNyguI-zU&t=2s) explaining how to use this platform.</blockquote>
+
 <blockquote>**INFO:**</blockquote>
 
 > - For *USA*, it is preferable if you know the **county** name. Follow the instructions on the page.It displays the trend nicely.
