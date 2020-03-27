@@ -36,6 +36,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "ubuntu1904"
+    "imageid": "ubuntu1904",
+    "url": "https://www.covid19india.org/"
   }
 }
