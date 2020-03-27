@@ -18,27 +18,18 @@
       "text": "finish.md"
     }
   },
-  "assets": {
-    "client": [
-      {
-        "file": "covid19_cases_details",
-        "target": "~/"
-      }
-    ],
-    "host01": [
-      {
-        "file": "covid19_cases_details",
-        "target": "~/"
-      }
-    ]
-  },
   "environment": {
+    "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboard": "Dashboard",
-    "uilayout": "terminal-iframe"
+    "dashboards": [
+      {"name": "CoronaVirus Self-Checker", "href": "https://covid19healthbot.cdc.gov/"},
+      {"name": "WHO Dashboard", "href":"https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"},
+      {"name": "JHU Dashboard", "href":"https://coronavirus.jhu.edu/map.html"},
+      {"name": "Detailed INDIA Dashboard", "href":"https://www.covid19india.org/"}
+    ]
+    
   },
   "backend": {
-    "imageid": "ubuntu1904",
-    "url": "https://www.covid19india.org/"
+    "imageid": "ubuntu1904"
   }
 }
