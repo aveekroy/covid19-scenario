@@ -1,8 +1,8 @@
 <blockquote>Please wait for sometime while the environment loads on Katacoda...</blockquote>
 
->NOTE: 
->For USA, it is preferable if you know the county name. It displays the trend nicely.
->For other countries, like India, Italy, Iran etc. you can just give the country name.
+>**NOTE:**
+>For *USA*, it is preferable if you know the **county** name. It displays the trend nicely.
+>For other countries, like India, Italy, Iran etc. you can just give the **country** name.
 
 <blockquote>**Step 1:** Click on the below</blockquote>
 
