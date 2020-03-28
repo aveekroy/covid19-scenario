@@ -26,6 +26,7 @@
       {"name": "WHO", "href":"https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"},
       {"name": "JHU", "href":"https://coronavirus.jhu.edu/map.html"},
       {"name": "INDIA Stats", "href":"https://www.covid19india.org/"},
+      {"name": "Coronavirus Risk Scan", "href":"https://covid.apollo247.com"},
       {"name": "Worldometer Stats", "href":"https://www.worldometers.info/coronavirus/"}
     ]
     
