@@ -22,16 +22,12 @@
     "uilayout": "terminal-iframe",
     "showdashboard": true,
     "dashboards": [
-      {"name": "CoronaVirus Self-Checker", "href": "https://covid19healthbot.cdc.gov/"},
-      {"name": "Apple COVID19", "href":"https://www.apple.com/covid19/"},
-      {"name": "Coronavirus Risk Scan", "href":"https://covid.apollo247.com"},
       {"name": "WHO Stats", "href":"https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"},
       {"name": "NORS CDC Stats", "href":"https://wwwn.cdc.gov/norsdashboard/"},
       {"name": "JHU Stats", "href":"https://coronavirus.jhu.edu/map.html"},
       {"name": "INDIA Stats", "href":"https://www.covid19india.org/"},
       {"name": "Worldometer Stats", "href":"https://www.worldometers.info/coronavirus/"}
     ]
-    
   },
   "backend": {
     "imageid": "ubuntu1904"

@@ -1,4 +1,8 @@
 
+
+   {"name": "CoronaVirus Self-Checker", "href": "https://covid19healthbot.cdc.gov/"},
+      {"name": "Apple COVID19", "href":"https://www.apple.com/covid19/"},
+      {"name": "Coronavirus Risk Scan", "href":"https://covid.apollo247.com"},
 <style>
 div.step
 {
@@ -178,3 +182,6 @@ function doAction(){
 >Guadeloupe
 >Mayotte
 >Reunion
+
+
+
