@@ -15,7 +15,7 @@
 `./covid19_cases_details`{{execute T1}}
 
 
-<blockquote>**Step 2:** Enter your **County**, **State**, **Country** Name:(below is an example of Maricopa county of Arizona State for example, preferred way of checking the data in US)</blockquote>>
+<blockquote>**Step 2:** Enter your **County**, **State**, **Country** Name:(below is an example of Maricopa county of Arizona State for example, preferred way of checking the data in US)</blockquote>
 `Maricopa, Arizona, US`{{execute T1}}
 
 or 
