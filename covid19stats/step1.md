@@ -14,12 +14,14 @@
 
 `./covid19_cases_details`{{execute T1}}
 
-<blockquote>**Step 2:** Enter your **County** OR **State** OR **Country** Name:(below is an example of Maricopa county of Arizona State for example)</blockquote>
-or
-<blockquote>**Step 2:** Enter your **County**, **State**, **Country** Name:(below is an example of Maricopa county of Arizona State for example)</blockquote>>
-`Maricopa`{{execute T1}}
-or
+
+<blockquote>**Step 2:** Enter your **County**, **State**, **Country** Name:(below is an example of Maricopa county of Arizona State for example, preferred way of checking the data in US)</blockquote>>
 `Maricopa, Arizona, US`{{execute T1}}
+
+or 
+
+<blockquote>Enter your **County** OR **State** OR **Country** Name:(below is an example of country *India*, you can search for any other country as well)</blockquote>
+`India`{{execute T1}}
 
 >You should be able to see the results. 
 
