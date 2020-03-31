@@ -25,7 +25,7 @@ or
 
 >You should be able to see the results. 
 
->In order to check for other states or country, click here -> `clear`{{execute T1}} and repeat **Step 1**
+>In order to check for other county, states or country, click here -> `clear`{{execute T1}} and repeat **Step 1**
 
 <blockquote>REFERENCE:</blockquote>
 `https://github.com/CSSEGISandData/COVID-19`
