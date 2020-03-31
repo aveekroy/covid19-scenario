@@ -2,11 +2,14 @@
 
 echo "Enter your County/State/Country Name:"
 read -e county_state_country
+unassigned=`echo ${county_state_country}|awk -F',' '{print $2}'`
 echo -e '\n'
 echo "Please find the details for \"${county_state_country}\""
 echo -e '\n'
 grep -rnw '/root/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports' -e "${county_state_country}"|sort|cut -d':' -f3-7 &> detailed_list
+grep -rnw '/root/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports' -e "${unassigned}"|sort|cut -d':' -f3-7 >> detailed_list
 cat detailed_list
+rm detailed_list
 echo -e '\n'
 
 
