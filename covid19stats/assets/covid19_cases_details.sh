@@ -13,6 +13,7 @@ function latest_count(){
                        
     file=`ls -l|tail -3|head -1|awk -F' ' '{print $9}'`
     echo -e "Details on $file for state ${state_us}\n"
+    echo -e '\n'
     cat $file|grep -w ${state_us} &> total
 
     for i in `cat total|grep ${state_us}|awk -F ',' '{print $8}'`
