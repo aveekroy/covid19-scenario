@@ -20,7 +20,8 @@ fi
 rm detailed_list detailed_list_us
 echo -e '\n'
 
-file=`ls -l|tail -3|head -1|awk -F' ' '{print $9'}`
+if [ ${country} == "US" ];then
+file=`ls -l|tail -3|head -1|awk -F' ' '{print $9}'`
 echo -e "Details on $file for state ${state_us}\n"
 cat $file|grep ${state_us} > total
 
@@ -41,14 +42,14 @@ for i in `cat total|grep ${state_us}|awk -F ',' '{print $10}'`
 do
 recovered=`expr $recovered + $i`
 done
-echo -e "Total number of deaths in ${state_us} is $recovered."
+echo -e "Total number of recovered people in ${state_us} is $recovered."
 
 for i in `cat total|grep ${state_us}|awk -F ',' '{print $11}'`
 do
 active=`expr $active + $i`
 done
-echo -e "Total number of deaths in ${state_us} is $active."
-
+echo -e "Total number of active people in ${state_us} is $active."
+fi
 
 
 #Before 23rd March
