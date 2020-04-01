@@ -10,19 +10,19 @@ echo "Please find the details for \"${county_state_country}\""
 echo -e '\n'
 
 function latest_count(){
-                       
+
+    echo -e '\n'
     file=`ls -l|tail -3|head -1|awk -F' ' '{print $9}'`
     echo -e "Details on $file for state ${state_us}\n"
-    echo -e '\n'
-    cat $file|grep -w ${state_us} &> total
+    cat $file|grep -w "${state_us}" &> total
 
-    for i in `cat total|grep ${state_us}|awk -F ',' '{print $8}'`
+    for i in `cat total|grep "${state_us}"|awk -F ',' '{print $8}'`
     do
         infected=`expr $infected + $i`
     done
     echo -e "Total number of persons infected in ${state_us} is $infected."
 
-    for i in `cat total|grep ${state_us}|awk -F ',' '{print $9}'`
+    for i in `cat total|grep "${state_us}"|awk -F ',' '{print $9}'`
     do
         deaths=`expr $deaths + $i`
     done
