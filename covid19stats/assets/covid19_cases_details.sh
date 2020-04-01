@@ -33,11 +33,11 @@ if [ -z ${country} ]; then
         grep -rnw '/root/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports' -e "${county_state_country}"|sort|cut -d':' -f3-7 &> detailed_list
         cat detailed_list
         rm detailed_list
-        latest_count
 else
         grep -rnw '/root/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports' -e "${county_state_country}"|sort|cut -d':' -f3-7 &> detailed_list_us
         grep -rnw '/root/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports' -e "${search}"|sort|cut -d':' -f3-7 >> detailed_list_us
         cat detailed_list_us
         rm detailed_list_us
+        latest_count
 fi
 echo -e '\n'
