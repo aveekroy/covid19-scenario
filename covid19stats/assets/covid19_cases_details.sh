@@ -20,6 +20,7 @@ function latest_count(){
     for i in `cat total|grep "${state_us}"|awk -F ',' '{print $8}'`
     do
         infected=`expr $infected + $i`
+        echo -e "$infected"
     done
     echo -e "Total number of persons infected in ${state_us} is $infected."
 
