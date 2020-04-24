@@ -2,7 +2,7 @@
   "title": "COVID-19 County/State/Country Report",
   "description": "Gives you the detailed list of cases present in your County/State/Country",
   "difficulty": "Beginner",
-  "time": "15",
+  "time": "60",
   "details": {
     "steps": [
       {
@@ -22,7 +22,7 @@
     "uilayout": "terminal-iframe",
     "showdashboard": true,
     "dashboards": [
-      {"name": "WHO Stats", "href":"https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd"},
+      {"name": "WHO Stats", "href":"https://covid19.who.int/"},
       {"name": "AZ ZIP code", "href":"https://adhsgis.maps.arcgis.com/apps/opsdashboard/index.html#/84b7f701060641ca8bd9ea0717790906"},
       {"name": "NORS CDC Stats", "href":"https://wwwn.cdc.gov/norsdashboard/"},
       {"name": "JHU Stats", "href":"https://coronavirus.jhu.edu/map.html"},

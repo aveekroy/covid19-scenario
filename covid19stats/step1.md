@@ -30,5 +30,4 @@ or
 <blockquote>REFERENCE:</blockquote>
 `https://github.com/CSSEGISandData/COVID-19`
 
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2152_RC02/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderWidget("US_cu__P7l0HABAABprM_en", "fe_line_chart_877a1698-6d62-4765-87ac-674c21996265", {"guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
 
