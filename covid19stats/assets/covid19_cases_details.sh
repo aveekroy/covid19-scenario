@@ -14,7 +14,7 @@ function latest_count(){
     echo -e '\n'
     file=`ls -l|tail -3|head -1|awk -F' ' '{print $9}'`
     dt=`echo $file|cut -d'.' -f1`
-    echo -e "Details on $dt for ${state_us} State in US along with the day by day stats for that county\n"
+    echo -e "$dt -- day by day stats for ${state_us} state of US\n"
     cat $file|grep -w "${state_us}" &> total
 
     for i in `cat total|grep "${state_us}"|awk -F ',' '{print $8}'`
