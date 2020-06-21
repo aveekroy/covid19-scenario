@@ -20,10 +20,12 @@
 
 or 
 
-<blockquote>Enter your **County** OR **State** OR **Country** Name:(below is an example of country *India*, you can search for any other country as well)</blockquote>
-`India`{{execute T1}}
+<blockquote>Enter your **City**/**State**, **Country** OR just **City**/**State** Name:(below is an example of Assam State of country *India*, you can search for any other city/state as well)</blockquote>
+`Assam, India`{{execute T1}}
+**OR** 
+`Assam`{{execute T1}}
 
->You should be able to see the results. 
+>You should be able to see the results.
 
 >In order to check for other county, states or country, click here -> `clear`{{execute T1}} and repeat **Step 1**
 
