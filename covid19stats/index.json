@@ -21,9 +21,10 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "dashboards": [
-      {"name": "WHO Stats", "href":"https://covid19.who.int/"},
-      {"name": "AZ ZIP code", "href":"https://adhsgis.maps.arcgis.com/apps/opsdashboard/index.html#/84b7f701060641ca8bd9ea0717790906"},
       {"name": "JHU Stats", "href":"https://coronavirus.jhu.edu/map.html"},
+      {"name": "covidByCounty", "href":"https://covidbycounty.com/"},
+      {"name": "AZ ZIP code", "href":"https://adhsgis.maps.arcgis.com/apps/opsdashboard/index.html#/84b7f701060641ca8bd9ea0717790906"},
+      {"name": "WHO Stats", "href":"https://covid19.who.int/"},
       {"name": "INDIA Stats", "href":"https://www.covid19india.org/"},
       {"name": "when it ends?", "href":"https://ddi.sutd.edu.sg/"},
       {"name": "Worldometer Stats", "href":"https://www.worldometers.info/coronavirus/"},
